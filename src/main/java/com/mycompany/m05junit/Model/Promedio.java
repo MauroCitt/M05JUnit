@@ -9,5 +9,14 @@ package com.mycompany.m05junit.Model;
  * @author alumne
  */
 public class Promedio {
-    
+    public double calcularmasgrande(double numeros[]){
+        double numero = Double.MIN_VALUE;
+        
+        for (int i = 0; i < numeros.length; i++) {
+            if (numeros[i] > numero) {
+                numero = numeros[i];
+            }
+        }
+        return numero;
+    }
 }
