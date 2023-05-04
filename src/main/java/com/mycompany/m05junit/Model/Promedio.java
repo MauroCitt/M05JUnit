@@ -9,7 +9,6 @@ package com.mycompany.m05junit.Model;
  * @author alumne
  */
 public class Promedio {
-
     public double sumarNumeros(double[] numeros) {
         double suma = 0;
 
@@ -19,4 +18,3 @@ public class Promedio {
         return suma;
     }
 }
-
